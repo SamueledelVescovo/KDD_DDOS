@@ -3,27 +3,22 @@
 The Distributed Denial of Service (**DDoS**) attack aims to **exhaust** the computational resources
 of a target host (in a computer network) in order to make a service **unavailable**.
 
-The goal of the project "**Synthesis of a KDD Pipeline for DDoS Connections Data Classification**" (**KDD_DDOS**) is to create a KDD (Knowledge Discovery in Databases) pipeline based on supervised **machine learning** algorithm (shallow learning) in order to **classify connections** in the different classes of DDoS attacks. This  algorithm is the **Decision Tree**. The use of this algorithm is motivated by its widespread use in **Technology Transfer** contexts.
+The goal of the project "**Synthesis of a KDD Pipeline for DDoS Connections Data Classification**" (**KDD_DDOS**) is to create a KDD (Knowledge Discovery in Databases) pipeline based on supervised **machine learning** algorithm (shallow learning) in order to **classify connections** in the different classes of DDoS attacks. This  algorithm used is the **Decision Tree**. The use of this algorithm is motivated by its widespread use in **Technology Transfer** contexts.
 
-The chosen [**dataset**](https://www.unb.ca/cic/datasets/ddos-2019.html) derives from a simplification of the one proposed by the **Canadian Institute
-for Cybersecurity**.
+The chosen [**dataset**](https://www.unb.ca/cic/datasets/ddos-2019.html) derives from a simplification of the one proposed by the **Canadian Institute for Cybersecurity**.
 
 ## Steps of Pipeline
 
 The steps of pipeline are:
-1. 
-2. Data Exploration: This step is useful to understand 
-3. Feature Evaluation:
-4. 
-
-And this will produce a flow chart:
+1. **Initial Knowledge of the Dataset**:  this step is useful to understand the dataset cardinality and the examples distribution in the various classes.
+2. **Data Exploration**: this step is useful to understand some key indicators of feature probability distribution. Futhermore, through the use of boxplots it is possible to understand the most prominent features i.e. the most labels discriminating features.
+3. **Feature Evaluation**: this step is useful to understand the "importance" of the single feature through ranking algorithm like Mutual Info and Info Gain (based on the entropy related to the features). Futhrmore, it is used the PCA (Principal Component Analysis) to obtain the dataset projected along the principal component (naturally sorted).
+4. **Validation**: this step is useful to understand the best parameter configuration related to the learned "pattern" of Decision Tree (for each feature ranking).
+5. **Data Mining and Valutation**: this step is useful to understand the best learned pattern based on the best ranking.
 
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+A[Initial Knowledge of the Dataset] --> B[Data Exploration] --> C[Feature Evaluation] --> D[Validation] --> E[Data Mining and Valutation]
 ```
 
 
@@ -48,8 +43,8 @@ The programming language used is Python (version 3.9.13). The dipendencies are i
 
 ## How to use
 In order to use this project and run the source code, it is possible to:
-* Install the required framework (using the "requirements.txt" file) via the command '$ pip3 install requirements.txt'
-* Run the main function via the command 'python3 main.py'
+* Install the required framework (using the "requirements.txt" file) via the command '$ pip3 install requirements.txt';
+* Run the main function via the command 'python3 main.py'.
 
 
 ## Credits
@@ -62,4 +57,3 @@ This repository was created and maintained by Samuele del Vescovo, MSc in Cybers
 
 
 
-# KDD_DDOS
