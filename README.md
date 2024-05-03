@@ -49,7 +49,7 @@ In order to use this project and run the source code, it is possible to:
 
 ## Credits
 
-This project was developed as case of study during the course "Data Analysis for Security" (Master's Degree in Cybersecurity) under the supervision of Prof. Appice Annalisa in [Department of Computer Science](https://www.uniba.it/it/ricerca/dipartimenti/informatica/en) @[Università degli Studi di Bari Aldo Moro](https://www.uniba.it/en). 
+This project was developed as case of study during the course "Data Analysis for Security" (Master's Degree in Cybersecurity) under the supervision of Prof. [Appice Annalisa](https://kdde.di.uniba.it/people/annalisa-appice/) in [Department of Computer Science](https://www.uniba.it/it/ricerca/dipartimenti/informatica/en) @[Università degli Studi di Bari Aldo Moro](https://www.uniba.it/en). 
 
 This repository was created and maintained by Samuele del Vescovo, MSc in Cybersecurity.
 
