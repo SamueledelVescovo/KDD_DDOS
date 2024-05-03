@@ -3,7 +3,7 @@
 The Distributed Denial of Service (**DDoS**) attack aims to **exhaust** the computational resources
 of a target host (in a computer network) in order to make a service **unavailable**.
 
-The goal of the project "**Synthesis of a KDD Pipeline for DDoS Connections Data Classification**" (**KDD_DDOS**) is to create a KDD (Knowledge Discovery in Databases) pipeline based on supervised **machine learning** algorithm (shallow learning) in order to **classify connections** in the different classes of DDoS attacks. This  algorithm used is the **Decision Tree**. The use of this algorithm is motivated by its widespread use in **Technology Transfer** contexts.
+The goal of the project "**Synthesis of a KDD Pipeline for DDoS Connections Data Classification**" (**KDD_DDOS**) is to create a KDD (Knowledge Discovery in Databases) pipeline based on supervised **machine learning** algorithm (shallow learning) in order to **classify connections** in the different classes of DDoS attacks. The algorithm used is the **Decision Tree**. The use of this algorithm is motivated by its widespread use in **Technology Transfer** contexts.
 
 The chosen [**dataset**](https://www.unb.ca/cic/datasets/ddos-2019.html) derives from a simplification of the one proposed by the **Canadian Institute for Cybersecurity**.
 
