@@ -43,7 +43,7 @@ The programming language used is Python (version 3.9.13). The dipendencies are i
 
 ## How to use
 In order to use this project and run the source code, it is possible to:
-* Install the required framework (using the "requirements.txt" file) via the command '$ pip3 install requirements.txt';
+* Install the required frameworks (using the "requirements.txt" file) via the command '$ pip3 install requirements.txt';
 * Run the main function via the command 'python3 main.py'.
 
 
