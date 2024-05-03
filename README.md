@@ -12,7 +12,7 @@ The chosen [**dataset**](https://www.unb.ca/cic/datasets/ddos-2019.html) derives
 The steps of pipeline are:
 1. **Initial Knowledge of the Dataset**:  this step is useful to understand the dataset cardinality and the examples distribution in the various classes.
 2. **Data Exploration**: this step is useful to understand some key indicators of feature probability distribution. Futhermore, through the use of boxplots it is possible to understand the most prominent features i.e. the most labels discriminating features.
-3. **Feature Evaluation**: this step is useful to understand the "importance" of the single feature through ranking algorithm like Mutual Info and Info Gain (based on the entropy related to the features). Futhrmore, it is used the PCA (Principal Component Analysis) to obtain the dataset projected along the principal component (naturally sorted).
+3. **Feature Evaluation**: this step is useful to understand the "importance" of the single feature through ranking algorithm like Mutual Info and Info Gain (based on the entropy related to the features). Futhermore, it is used the PCA (Principal Component Analysis) to obtain the dataset projected along the principal component (naturally sorted).
 4. **Validation**: this step is useful to understand the best parameter configuration related to the learned "pattern" of Decision Tree (for each feature ranking).
 5. **Data Mining and Valutation**: this step is useful to understand the best learned pattern based on the best ranking.
 
