@@ -24,6 +24,7 @@ if __name__ == '__main__':
 
     #2 STEP
     list_attributes = list(train_dataset.columns.values)
+    #Commented for brevity. Uncomment to show boxplots.
     #preElaborationData(train_dataset, list_attributes)
 
     #3 STEP
